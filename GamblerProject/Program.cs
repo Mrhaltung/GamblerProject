@@ -10,6 +10,8 @@ namespace GamblerProject
             
             Game game = new Game();
 
+            game.GamblerWinOrLoss();
+
         }
     }
 }

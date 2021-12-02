@@ -6,7 +6,7 @@ namespace GamblerProject
 {
     public class Game
     {
-        public static void GamblerWinOrLoss()
+        public void GamblerWinOrLoss()
         {
             int Start = 100;
 
