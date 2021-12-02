@@ -8,7 +8,7 @@ namespace GamblerProject
         public int bet = 1;
         static void Main(string[] args)
         {
-            Console.WriteLine("Gambler Progarm \n");
+            Console.WriteLine("Welcom Gambler Stimulation Progarm \n");
            
         }
     }
