@@ -6,7 +6,28 @@ namespace GamblerProject
 {
     public class Game
     {
-        public const int Start = 100;
-        public const int Bet = 1;
+        public static void GamblerWinOrLoss()
+        {
+            int Start = 100;
+
+            Random random = new Random();
+
+            int n = random.Next(2);
+
+            if (n == 1)
+            {
+                Start++;
+
+                Console.WriteLine("Gambler Win the $1 bet");
+                Console.WriteLine("Your current Stack is : " + Start);
+            }
+            else
+            {
+                Start--;
+                Console.WriteLine("Gambler Loss the $1 bet");
+                Console.WriteLine("Your current Stack is : " + Start);
+            }
+
+        }
     }
 }
